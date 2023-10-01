@@ -1,0 +1,22 @@
+---
+:source:
+  :path: test
+  :file: test_module.c
+:successes:
+- :test: test_addition
+  :line: 14
+  :message: ''
+  :unity_test_time: 0
+:failures:
+- :test: test_addition_to_fail
+  :line: 21
+  :message: Expected 9 Was 7
+  :unity_test_time: 0
+:ignores: []
+:counts:
+  :total: 2
+  :passed: 1
+  :failed: 1
+  :ignored: 0
+:stdout: []
+:time: 0.013466954000250553
